@@ -1,0 +1,16 @@
+{
+  "firebase": "collegechat-8ddb6",
+  "public": "dist",
+  "database": {
+    "rules": "database.rules.json"
+  },
+  "hosting": {
+    "public": "public",
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}
